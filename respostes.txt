@@ -6,3 +6,4 @@ cat  /home/alumno/Escritorio/Alumnos.txt | grep NOMBRE -A 48 -B 1 | awk '{ print
 cat  /home/alumno/Escritorio/Alumnos.txt | grep -wo González | wc -l
 cat  /home/alumno/Escritorio/Alumnos.txt | grep -wo González | wc -l
 cat  /home/alumno/Escritorio/Alumnos.txt | grep [2010][2010-2019][2019]
+cat  /home/alumno/Escritorio/Alumnos.txt | grep -r J
