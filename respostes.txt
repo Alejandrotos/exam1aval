@@ -7,3 +7,4 @@ cat  /home/alumno/Escritorio/Alumnos.txt | grep -wo González | wc -l
 cat  /home/alumno/Escritorio/Alumnos.txt | grep -wo González | wc -l
 cat  /home/alumno/Escritorio/Alumnos.txt | grep [2010][2010-2019][2019]
 cat  /home/alumno/Escritorio/Alumnos.txt | grep -r J
+cat /home/alumno/Escritorio/du.txt | grep M 
