@@ -2,3 +2,4 @@ mkdir examen
 cd examen
 cat -n /home/alumno/Escritorio/Alumnos.txt | grep SI > si.txt
 mv si.txt /home/alumno/examen/si
+cat  /home/alumno/Escritorio/Alumnos.txt | grep NOMBRE -A 48 -B 1 | awk '{ print $1 " "  $2  $11 "-" }'
